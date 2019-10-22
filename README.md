@@ -1,5 +1,5 @@
 # Scholar-Search
-A multi-page, multi-term scraper for Google Scholar results (version 1.0.6)
+A multi-page, multi-term scraper for Google Scholar results (version 1.0.6).
 
 ## Background
 This scraper was developed for use in a systematic review of scholarship on electricity generation, co-authored by Sarah M. Jordaan, Cory J. Combs, and Edeltraud Günther. The collected data served as the basis for an article being prepared for submission in early 2020.
