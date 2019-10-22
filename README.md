@@ -22,10 +22,11 @@ This scraper was developed for use in a systematic review of scholarship on elec
   * outputs the results in a pandas data frame,
   * extracts metadata elements not consistently identifiable through Google Scholar's html or xml alone,
   * cleans and formats the data, and
-  * exports the fully formatted dataframe into Excel
+  * exports the fully formatted dataframe into Excel.
 
 The results may be explored in the output Excel file or in Python using pandas. The final formatted pandas data frame is called "data_df_clean" by default.
 
 ## Ethical Scraping
 Without appropriate constraints, web scraping can cause undue stress on a server. As such, special care was taken in implementing this scraper to ensure ethical use of server requests, first by scripting pauses between both page iterations and individual result collections, and second by separating execution of each search across the day, over multiple days, and avoiding peak usage times. When developing the script, a sample test was manually confirmed to yield a small number of results prior to execution to avoid unnecessary server burden.
+
 For an interesting exploration of scraping Google Scholar results at a far larger scale, and through different means, see [Else 2018 in Nature](https://www.nature.com/articles/d41586-018-04190-5).
